@@ -1,10 +1,7 @@
-
-## Run 
-
 `
 To use this project`
 
-https://link-to-project
+https://tusif-hassan-rizvi.github.io/Text-to-Binary/
 
 
 
