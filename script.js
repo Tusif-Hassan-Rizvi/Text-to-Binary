@@ -12,12 +12,11 @@ btn.addEventListener('click', () => {
 
         let AsciiValue = textValue.charCodeAt(i);
         // valuearr.push(AsciiValue);
-        html+=`<span>${AsciiValue.toString(2)} </span>`;
+        html+=`${AsciiValue.toString(2)} `;
     }
   
-    output.style.overflowY='scroll';
 
-    output.innerHTML=html;
+    output.innerText=html;
    
 
 })

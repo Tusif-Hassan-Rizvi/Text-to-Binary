@@ -27,6 +27,11 @@
     padding: 10px;
     outline: none;
   }
+
+  #input-text:hover{
+    border: 1px solid rgb(141, 141, 209);
+
+  }
   
   .outputcontainer{
     margin-top: 10px;
