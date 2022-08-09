@@ -4,19 +4,17 @@ let btn = document.getElementById('btn-convert');
 
 
 btn.addEventListener('click', () => {
-
     let textValue = takeinput.value;
     let index = 0;
-    let html="";
+    let html = "";
     for (let i = 0; i < textValue.length; i++) {
 
         let AsciiValue = textValue.charCodeAt(i);
-        // valuearr.push(AsciiValue);
-        html+=`${AsciiValue.toString(2)} `;
+        html += `${AsciiValue.toString(2)} `;
     }
-  
 
-    output.innerText=html;
-   
+
+    output.innerText = html;
+
 
 })
